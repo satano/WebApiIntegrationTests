@@ -7,6 +7,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <!-- The tests are working, if package reference is with specific version. -->
+    <!--<PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />-->
   </ItemGroup>
 
 </Project>
