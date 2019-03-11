@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace DemoApi20
+namespace DemoApi21
 {
     public class Program
     {
