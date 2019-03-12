@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.TestHost;
 using System;
 using System.Net.Http;
 
-namespace TestServerTests21_WithVersion
+namespace TestServerTests_WithVersion
 {
     public class TestsHost
     {

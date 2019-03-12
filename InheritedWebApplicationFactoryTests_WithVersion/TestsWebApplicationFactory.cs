@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace InheritedWebApplicationFactoryTests
+namespace InheritedWebApplicationFactoryTests_WithVersion
 {
     public class TestsWebApplicationFactory : WebApplicationFactory<TestsStartup>
     {

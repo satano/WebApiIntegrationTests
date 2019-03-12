@@ -1,14 +1,15 @@
 using FluentAssertions;
+using Microsoft.AspNetCore.Mvc.Testing;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace TestServerTests21_WithVersion
+namespace InheritedStartupTests_WithVersion
 {
     public class DemoTests : TestsBase
     {
-        public DemoTests(TestsHost host) : base(host)
+        public DemoTests(WebApplicationFactory<TestsStartup> factory) : base(factory)
         {
         }
 

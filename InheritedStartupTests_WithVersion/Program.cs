@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace DemoApi21
+namespace InheritedStartupTests_WithVersion
 {
     public class Program
     {
@@ -12,6 +12,6 @@ namespace DemoApi21
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<TestsStartup>();
     }
 }

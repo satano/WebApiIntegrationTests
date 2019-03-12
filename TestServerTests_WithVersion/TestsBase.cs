@@ -3,7 +3,7 @@ using System;
 using System.Net.Http;
 using Xunit;
 
-namespace TestServerTests21_WithVersion
+namespace TestServerTests_WithVersion
 {
     public abstract class TestsBase : IClassFixture<TestsHost>
     {

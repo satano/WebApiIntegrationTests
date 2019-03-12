@@ -1,8 +1,8 @@
-﻿using DemoApi21;
+﻿using DemoApi;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace TestServerTests21_WithoutVersion
+namespace TestServerTests_WithVersion
 {
     public class TestsStartup : Startup
     {

@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace TestServerTests21_WithoutVersion
+namespace TestServerTests_WithVersion
 {
     public class DemoTests : TestsBase
     {
