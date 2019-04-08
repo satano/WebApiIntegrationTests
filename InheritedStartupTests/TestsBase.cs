@@ -14,7 +14,6 @@ namespace InheritedStartupTests
         public TestsBase(WebApplicationFactory<TestsStartup> factory)
         {
             _factory = factory;
-            string currentDir = System.Environment.CurrentDirectory;
             Client = _factory.CreateClient();
         }
 

@@ -15,8 +15,6 @@ namespace InheritedWebApplicationFactoryTests_WithVersion
 
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
-            string currentDir = System.Environment.CurrentDirectory;
-            string startupDir = typeof(TestsStartup).Assembly.Location;
             base.ConfigureWebHost(builder);
         }
     }

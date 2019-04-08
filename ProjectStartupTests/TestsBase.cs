@@ -14,7 +14,6 @@ namespace ProjectStartupTests
         public TestsBase(WebApplicationFactory<DemoApi.Startup> factory)
         {
             _factory = factory;
-            string currentDir = System.Environment.CurrentDirectory;
             Client = _factory.CreateClient();
         }
 
