@@ -9,7 +9,6 @@ namespace InheritedWebApplicationFactoryTests_WithVersion
         protected override IWebHostBuilder CreateWebHostBuilder()
         {
             return WebHost.CreateDefaultBuilder()
-                .UseContentRoot(".")
                 .UseStartup<TestsStartup>();
         }
 
