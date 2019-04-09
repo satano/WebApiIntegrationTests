@@ -8,12 +8,8 @@ namespace DemoApi
 {
     public class Startup
     {
-        private readonly IHostingEnvironment _environment;
-
         public Startup(IHostingEnvironment env)
         {
-            _environment = env;
-
             var builder = CreateConfigurationBuilder(env);
             Configuration = builder.Build();
         }
